@@ -1,8 +1,8 @@
 # Markdown
 ---
 ##Titulos en Markdown
+
 Para poder agregar un titulo dentro de archivos .md(markdown) se hace mediante el simbolo de '#'
-#Ejemplo de titulo
 Al agregar titulos el simbolo de '#' se puede usar de 1 a 6 representando el nivel y tamaño del titulo. Esto es similar a la etiqueta 'h' que hay en HTML que va desde el 1 al 6
 ```
 #Titulo 1
@@ -14,6 +14,7 @@ Al agregar titulos el simbolo de '#' se puede usar de 1 a 6 representando el niv
 ```
 ---  
 ##Formatos de texto
+
 En los archivos .md(markdown) para darle formato al texto se hace mediante los siguientes simbolos:
 ```
 ** ** negritas
@@ -24,6 +25,7 @@ _ _ cursiva
 **~~_Tambien se pueden combinar dentro de la misma oracion_~~**
 ---
 ##Enlaces
+
 Para poner un enlace dentro de un archivo .md(markdown) se puede pegar directamente el enlace 
 ```
 Mi GitHub: https://github.com/Mane087
@@ -39,12 +41,14 @@ Otra forma de mostrar enlaces es encerrandolos dentro de los simbolos de '< link
 ```
 ---
 ##Mostrar imagenes
+
 Para mostrar imagenes dentro de los archivos .md(markdown) se hace de la siguiente forma: 
 ```
 ![TITULO PARA LA IMAGEN](www.ejemplo_link_de_imagen.com)
 ```
 ---
 ##Listas
+
 Para mostrar listas en archivos .md(markdown) de puede hacer de dos formas mediante el simbolo de '-' para listas no ordenadas, a las cuales se les puede dar identacion con precionando la tecla 'TAB' y para listas ordenadas se usa '1.'
 **LISTA NO ORDENADA**
 -texto 1
@@ -55,10 +59,12 @@ Para mostrar listas en archivos .md(markdown) de puede hacer de dos formas media
 2. texto 2
 ---
 ##Citar
+
 Para citar dentro de archivos .md(markdown) se hace mediante el uso del simbolo '>'
 >Ejemplo de una cita
 ---
 ##Resaltar texto
+
 Para resaltar texto dentro de un archivo .md(markdown) se hace mediante el simbolo de '`' o si son varias lineas a resaltar como por ejemplo un bloque de codigo se usan '```' al inicio y al final del bloque de codigo o texto
 
 Ejemplo de una linea de texto/codigo:`console.log()`
@@ -70,6 +76,7 @@ end
 ```
 ---
 ##Tablas 
+
 En los archivos .md(markdown) se puden agregar tablas usando el simbolo de  '|'
 ```
 | columna 1 | columna 2 | columna 3 |
