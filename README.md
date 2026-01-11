@@ -106,3 +106,39 @@ En los archivos .md(markdown) se puden agregar tablas usando el simbolo de  " | 
 | texto 1   | texto 2   | texto 3   |
 ```
 
+## Alertas
+Las alertas, también conocidas como llamadas o advertencias, son una extensión de Markdown basada en la sintaxis de blockquote que se puede utilizar para resaltar información importante. En GitHub, se muestran con colores e iconos distintivos para indicar la importancia del contenido.
+
+Utiliza las alertas solo cuando sean cruciales para el éxito del usuario y limítalas a una o dos por artículo para evitar sobrecargar al lector. Además, debes evitar colocar alertas consecutivas. Las alertas no se pueden anidar dentro de otros elementos.
+
+Para añadir una alerta, utiliza una línea de cita bloque especial que especifique el tipo de alerta, seguida de la información de la alerta en una cita bloque estándar. Hay cinco tipos de alertas disponibles:
+``` text
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+> [!NOTE]
+> Información útil que los usuarios deben conocer, incluso cuando leen el contenido por encima.
+
+> [!TIP]
+> Consejos útiles para hacer las cosas mejor o más fácilmente.
+
+> [!IMPORTANT]
+> Información clave que los usuarios deben conocer para alcanzar su objetivo.
+
+> [!WARNING]
+> Información urgente que requiere la atención inmediata del usuario para evitar problemas.
+
+> [!CAUTION]
+> Avisa sobre los riesgos o consecuencias negativas de ciertas acciones.
